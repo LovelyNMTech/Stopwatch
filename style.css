@@ -1,0 +1,72 @@
+body h1{
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch {
+  margin: 50px auto;
+  width: 400px;
+  height: 200px;
+  background-color: #222;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.timer {
+  font-size: 60px;
+  color: #0ff;
+}
+
+.controls {
+  display: flex;
+}
+
+button {
+  font-size: 18px;
+  color: #fff;
+  background-color: #555;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.resetButton:hover {
+  background-color: #777;
+  transform: translateY(0.2rem);
+}
+
+.startButton:hover {
+  background-color: #006600;
+  transform: translateY(0.2rem);
+}
+
+.stopButton:hover{
+  background-color: rgb(251, 49, 49);
+  transform: translateY(0.2rem);
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  font-size: 8px;
+}
+  
